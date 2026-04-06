@@ -1,4 +1,4 @@
-# 🥷 Cadastro de Ninjas API
+# Cadastro de Ninjas API
 
 API REST desenvolvida com Spring Boot para gerenciamento de ninjas e missões.
 
@@ -132,25 +132,6 @@ POST /missoes
 - Spring Data JPA
 - Hibernate
 - Lombok
-
----
-
-## ⚠️ Observações
-
-- O método `criarMissao` no `NinjaController` deveria se chamar `criarNinja`
-- Não há camada de Service (boa prática adicionar)
-- Tratamento de erro simples (RuntimeException)
-
----
-
-## 🚀 Melhorias futuras
-
-- [ ] Criar camada de Service
-- [ ] Implementar DTOs
-- [ ] Adicionar validações (`@Valid`)
-- [ ] Implementar tratamento global de exceções
-- [ ] Integrar Swagger para documentação automática
-- [ ] Gerar documentação com Mintlify
 
 ---
 
